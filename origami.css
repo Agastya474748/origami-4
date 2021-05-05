@@ -1,0 +1,29 @@
+*{border:solid}
+.header{
+background-color: #2380af;
+display : flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.bodyimg{
+background-color: #5830bc;
+display : flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.origami{
+    background-color: #5376fd;
+    display : flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+.image_grid{
+    padding-left: 400px;
+    position:relative
+    }
+     a:link{color:orange}       
+     a:visited{color:crimson}
+    .image_grid:hover{
+        transform:scale(1.2);
+    }
+h2{position:absolute;top: 4%;left: 65%;transform:translate(-40%,-40%);}
